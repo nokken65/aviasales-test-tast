@@ -1,0 +1,11 @@
+.container {
+  width: 502px;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+
+  & > *:first-child {
+    margin-bottom: 20px;
+  }
+}

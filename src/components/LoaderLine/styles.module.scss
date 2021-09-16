@@ -1,0 +1,27 @@
+.loader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.loaderElement {
+  height: 3px;
+  width: 100%;
+  background: $secondary-c;
+  &:before {
+    content: '';
+    display: block;
+    background-color: $primary-c;
+    height: 3px;
+    width: 0;
+    animation: getWidth 2s ease-in infinite;
+  }
+}
+
+@keyframes getWidth {
+  100% {
+    width: 100%;
+  }
+}

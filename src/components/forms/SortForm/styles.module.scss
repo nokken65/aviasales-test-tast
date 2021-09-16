@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 167%;
+
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  color: $text-c;
+  border: 1px solid;
+  &:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  &:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+.active {
+  color: #fff;
+  background-color: $primary-c;
+  border-color: $primary-c;
+}
+
+.inactive {
+  color: $text-c;
+  background-color: #fff;
+  border-color: #dfe5ec;
+}
