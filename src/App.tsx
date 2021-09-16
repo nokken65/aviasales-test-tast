@@ -1,5 +1,6 @@
-import React from 'react';
+// eslint-disable-next-line simple-import-sort/imports
 import { hot } from 'react-hot-loader/root';
+import React from 'react';
 
 import DefaultLayout from '@/layouts/DefaultLayout';
 
@@ -12,4 +13,5 @@ const App: React.FC = () => {
     </DefaultLayout>
   );
 };
+
 export default hot(App);
