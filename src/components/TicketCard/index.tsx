@@ -22,6 +22,7 @@ const TicketCard: React.FC<IProps> = ({ ticket }) => {
             alt="avia company"
             width={99}
             height={36}
+            loading="lazy"
           />
         </div>
         {ticket.segments.map((segment, index) => (
