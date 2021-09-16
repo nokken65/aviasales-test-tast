@@ -7,7 +7,13 @@ import styles from './styles.module.scss';
 const Header: React.FC = () => {
   return (
     <div className={styles.wrapper}>
-      <img className={styles.logo} src={Logo} alt="" width={99} height={36} />
+      <img
+        className={styles.logo}
+        src={Logo}
+        alt="logo"
+        width={60}
+        height={60}
+      />
     </div>
   );
 };
